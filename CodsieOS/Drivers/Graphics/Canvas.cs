@@ -2,9 +2,9 @@
 using System.Text;
 using Cosmos.System.Graphics;
 
-using Cosmos.Core; // used for memeory stuff
+using Cosmos.Core; // used for memory stuff
 using System.Drawing; // used for color
-using System.IO; // used for memeory stuff
+using System.IO; // used for memory stuff
 
 namespace CodsieOS.Drivers.Graphics
 {
@@ -21,7 +21,7 @@ namespace CodsieOS.Drivers.Graphics
             }
             else
             {
-                throw new Exception("Canavs: VBE was not ininitialized");
+                throw new Exception("Canvas: VBE was not initialized");
             }
         }
 
